@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .container {
+    padding-top: 150px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .Button {
+    margin: auto;
+    width: 260px;
+    height: 80px;
+    font-size: 20px;
+  }
+
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 150px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .pageFontSize {
+    font-size: 20px;
+  }
+
+  .joke {
+    font-size: 15px;
+  }
+
+  body {
+    background-color:	cornsilk;
+}

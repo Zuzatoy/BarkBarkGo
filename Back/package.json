@@ -1,0 +1,26 @@
+{
+  "name": "personal-project-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/emmanio/personal-project-server.git",
+  "author": "emma-nio <emmanioashley@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "knex": "knex --knexfile ./knexfile.js",
+    "dev": "nodemon index",
+    "start": "node index",
+    "test": "jest --watchAll"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "nodemon": "^1.18.4",
+    "sqlite3": "^4.0.2",
+    "supertest": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "knex": "^0.15.2",
+    "rss-to-json": "^1.0.4",
+    "superagent": "^3.8.3"
+  }
+}
